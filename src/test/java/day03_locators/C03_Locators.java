@@ -62,7 +62,7 @@ public class C03_Locators {
             System.out.println("signOut testi FAILED");
         }
 
-        // syfada kac tane link oldugunu bulun
+        // sayfada kac tane link oldugunu bulun
         List<WebElement> linklerListesi = driver.findElements(By.tagName("a"));
         System.out.println("sayfadaki link sayisi : " + linklerListesi.size());
 
