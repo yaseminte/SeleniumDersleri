@@ -40,6 +40,7 @@ public class C03_Locators {
         // bir webElementin uzerinde ne yazdigini gormek istersek webElementIsmi.getText() kullaniriz
         System.out.println(actualKullaniciAdiElementi.getText());
         String expectedUserMail = "testtechproed@gmail.com";
+
         if (expectedUserMail.equals(actualKullaniciAdiElementi.getText())){
             System.out.println("Expected Kullanici Adi testi PASSED");
         }else {
@@ -62,7 +63,6 @@ public class C03_Locators {
         }
 
         // syfada kac tane link oldugunu bulun
-
         List<WebElement> linklerListesi = driver.findElements(By.tagName("a"));
         System.out.println("sayfadaki link sayisi : " + linklerListesi.size());
 

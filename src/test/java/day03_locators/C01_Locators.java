@@ -24,9 +24,9 @@ public class C01_Locators {
         WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
 
        /* WebElement aramaKutusu = driver.findElement(By.className("nav-search-field "));
-          bu locator caismadi
+          bu locator calismadi
           Locator alirken gozunuzden kacan detaylar olabilir
-          aldigimiz bir locator cakismazsa alternatif locator'lar denemeliyiz
+          aldigimiz bir locator calismazsa alternatif locator'lar denemeliyiz
         */
 
         /*
