@@ -17,7 +17,7 @@ public class C03_Locators {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         // a."https://a.testaddressbook.com adresine gidiniz
-        driver.get("https://a.testaddressbook.com");
+        driver.get("http://a.testaddressbook.com");
 
         // b.Sign in butonuna basiniz
         WebElement signInLinki = driver.findElement(By.linkText("Sign in"));
