@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Q01 {
+public class Q01_getMethods {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
