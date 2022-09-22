@@ -54,23 +54,23 @@ public class Q05_TekrarTesti {
         // 9. Ardından sayfa başlığının "Amazon" içerip içermediğini
         // (contains) doğrulayın, Yoksa
         // doğru başlığı(Actual Title) yazdırın.
-        actualTitle = driver.getTitle();
-        arananKelime = "amazon";
-        if (actualTitle.contains(arananKelime)){
+        String actualTitle2 = driver.getTitle();
+        String arananKelime2 = "amazon";
+        if (actualTitle2.contains(arananKelime2)){
             System.out.println("Title2 testi PASSED");
         }else {
-            System.out.println(actualTitle);
+            System.out.println(actualTitle2);
         }
 
         // 10.Sayfa URL'sinin
         // https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru
         // URL'yi yazdırın
         String expectedUrl = "https://www.amazon.com/";
-        actualUrl = driver.getCurrentUrl();
-        if (actualUrl.equals(expectedUrl)){
+        String actualUrl2 = driver.getCurrentUrl();
+        if (actualUrl2.equals(expectedUrl)){
             System.out.println("Url2 testi PASSED");
         }else {
-            System.out.println(actualUrl);
+            System.out.println(actualUrl2);
         }
 
         // 11.Sayfayi kapatin
