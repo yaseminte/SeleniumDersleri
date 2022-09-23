@@ -10,7 +10,7 @@ import java.time.Duration;
 public class C04_WebElementMethodlari {
     public static void main(String[] args) {
 
-        // 1- amazon.com a gidip arama kutusunu kocate edin
+        // 1- amazon.com a gidip arama kutusunu locate edin
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();

@@ -37,6 +37,7 @@ public class C03_Locators {
 
         // e. Expected user id'nin testtechproed@gmail.com oldugunu dogrulayin (verify)
         WebElement actualKullaniciAdiElementi = driver.findElement(By.className("navbar-text"));
+
         // bir webElementin uzerinde ne yazdigini gormek istersek webElementIsmi.getText() kullaniriz
         System.out.println(actualKullaniciAdiElementi.getText());
         String expectedUserMail = "testtechproed@gmail.com";
